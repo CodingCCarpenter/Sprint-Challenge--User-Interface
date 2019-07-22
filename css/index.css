@@ -147,7 +147,7 @@ header nav{
     display: flex;
     align-items: flex-end;
     justify-content: space-between;
-    margin-bottom: 30px;
+    margin-bottom: 40px;
 
 }
 header nav a{
@@ -155,7 +155,7 @@ header nav a{
     color: black;
     font-weight: bold;
 }
-#jumbo{
+.jumbo{
     width: 98%;
     margin-bottom: 40px;
 }
@@ -189,15 +189,22 @@ header nav a{
 #box10{
     background: dodgerblue;
 }
-nav .logo{
-    animation-name: spin;
+.logo{
+    animation: spin;
     animation-duration: 3s;
 }
 @keyframes spin{
-    from{
-        transform: rotate(0);
-    }
-    to{
-        transform: rotate(360deg);
-    }
+    from{ transform: rotate(0deg)}
+    to{ transform: rotate(360deg)}
+}
+.middle-boxes{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.flex{
+    width: 43%;
+    padding-bottom: 30px;
+    border-bottom: 1px dashed black;
+    margin: 1%;
 }
