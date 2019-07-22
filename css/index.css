@@ -215,5 +215,15 @@ header nav a{
     border: 1.3px solid black;
     background: white;
     margin: 10px 20px 20px 0;
-
+}
+textarea{
+    height: 10%;
+    width: 45%;
+}
+.button{
+    padding: 5px 15px 5px 15px;
+    border-radius: 10px;
+    border: 1.3px solid black;
+    background: white;
+    margin: 10px 20px 20px 0;
 }
